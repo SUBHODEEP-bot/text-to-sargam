@@ -133,7 +133,7 @@ const Index = () => {
           </div>
 
           {/* Main Input Card */}
-          <Card className="max-w-3xl mx-auto p-4 md:p-8 shadow-card backdrop-blur-sm bg-card/95 border-2 hover:shadow-glow transition-all duration-300">
+          <Card className="max-w-3xl mx-auto p-4 md:p-8 shadow-card backdrop-blur-sm border-2 hover:shadow-glow transition-all duration-300 bg-slate-300">
             <div className="space-y-4 md:space-y-6">
               <div className="space-y-2 md:space-y-3">
                 <label htmlFor="textInput" className="text-sm md:text-base font-semibold text-foreground flex items-center gap-2">
@@ -184,7 +184,7 @@ const Index = () => {
 
           {/* Info Section */}
           <div className="max-w-3xl mx-auto mt-8 md:mt-16">
-            <Card className="p-4 md:p-8 bg-gradient-to-br from-card to-muted/30 border-2 border-primary/10 backdrop-blur-sm">
+            <Card className="p-4 md:p-8 bg-gradient-to-br from-card to-muted/30 border-2 border-primary/10 backdrop-blur-sm bg-slate-500">
               <h2 className="text-xl md:text-2xl font-bold text-foreground mb-4 md:mb-6 flex items-center gap-2">
                 <Sparkles className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                 How It Works
