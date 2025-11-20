@@ -144,9 +144,7 @@ const Index = () => {
                 
                 {/* Quick fill buttons */}
                 <div className="flex flex-wrap gap-2">
-                  {quickFills.map(quick => <Button key={quick.value} variant="outline" size="sm" onClick={() => setInputText(quick.value)} disabled={isPlaying} className="text-xs">
-                      {quick.label}
-                    </Button>)}
+                  {quickFills.map(quick => {})}
                 </div>
               </div>
 
